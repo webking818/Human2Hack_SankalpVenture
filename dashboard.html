@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>👩‍💻 Welcome to Your Dashboard</h1>
+    </header>
+
+    <div class="dashboard-container">
+        <div class="dashboard-card">
+            <h2>📢 Webinars</h2>
+            <p>Find and join exciting webinars in your field.</p>
+            <button onclick="goToWebinars()">🎤 View Webinars</button>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>📰 Tech News</h2>
+            <p>Stay updated with the latest trends in technology.</p>
+            <button onclick="fetchTechNews()">📰 Show News</button>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>🔗 Connect</h2>
+            <p>Build connections with industry professionals.</p>
+            <button onclick="goToProfiles()">🔗 Connect</button>
+        </div>
+    </div>
+
+    <div id="newsSection"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

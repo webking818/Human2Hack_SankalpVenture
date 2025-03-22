@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Webinar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="live-webinar">
+        <h1 id="webinarTitle">🔴 Live Webinar</h1>
+        <p id="webinarSpeaker">Speaker: TBD</p>
+        <video width="100%" controls>
+            <source src="sample-webinar.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+
+        <div class="chat-section">
+            <h3>💬 Live Chat</h3>
+            <div id="chatBox">
+                <p>User1: Hello everyone! 👋</p>
+                <p>User2: Excited for this session! 🎉</p>
+            </div>
+            <input type="text" id="chatInput" placeholder="Type your message...">
+            <button onclick="sendChat()">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
